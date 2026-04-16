@@ -33,7 +33,6 @@ elForm.addEventListener("input", (e) => {
     elMessage2.innerHTML = "Password is not valid";
   }
 
-  // --- Email ---
   const value2 = elEmail.value.trim();
   if (value2.length === 0) {
     elMessage.innerHTML = "";
